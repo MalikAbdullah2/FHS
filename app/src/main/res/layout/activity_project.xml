@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Project"
+    android:orientation="vertical"
+    android:background="@drawable/newandupdateback"
+    >
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="150dp"
+     android:src="@drawable/newlogo"
+     />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="40sp"
+     android:layout_below="@id/img_projectret"
+     android:textStyle="bold"
+     android:textSize="20sp"
+     android:text="OUR PROJECTS"
+     android:textColor="#F80505"
+     />
+
+ <androidx.recyclerview.widget.RecyclerView
+     android:id="@+id/recyclerview_project"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" />
+
+
+</LinearLayout>

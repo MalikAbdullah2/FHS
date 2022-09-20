@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".procedure_updated"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/newandupdateback"
+    >
+    <ImageView
+        android:id="@+id/img_signup_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:padding="20dp"
+        app:srcCompat="@drawable/newlogo"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:text="Our diffrent Procedure Forms are following.."
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+    <ListView
+        android:id="@+id/listview_proceduresUpdated"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        />
+
+</LinearLayout>

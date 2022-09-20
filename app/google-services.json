@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "656549397918",
+    "firebase_url": "https://aviation-city-kamra-default-rtdb.firebaseio.com",
+    "project_id": "aviation-city-kamra",
+    "storage_bucket": "aviation-city-kamra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656549397918:android:ca2b23d2a1ef2a46f6428f",
+        "android_client_info": {
+          "package_name": "com.example.fhskamra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656549397918-26k52ucu63psn5khujea42d3j2le61bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqDlszgWPEVlG1J4a8g_l7hWhV2rkhKE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656549397918-26k52ucu63psn5khujea42d3j2le61bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
